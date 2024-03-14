@@ -18,7 +18,7 @@ const server = http.createServer ((req, res) => {
         const media = calcularMedia(numeros);
     res.statusCode = 200;
     res.setHeader ('Content-Type', 'text/plain');
-    res.end("A média dos números é:" + media);
+    res.end("A media dos numeros e:" + media);
 });
 const port = 3000;
 const hostname = '127.0.0.1';
